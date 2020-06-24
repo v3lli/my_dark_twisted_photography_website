@@ -1,0 +1,113 @@
+
+.about{
+    -o-display: flex;
+    -o-flex-direction: row;
+    -o-max-width: 100%;
+
+    -ms-display: flex;
+    -ms-flex-direction: row;
+    -ms-max-width: 100%;
+
+    -moz-display: flex;
+    -moz-flex-direction: row;
+    -moz-max-width: 100%;
+
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.describe{
+    -o-padding: 10px;
+    -o-max-height: 80%;
+    -o-font-size: 0.85rem;
+    -o-justify-self: center;
+    
+    -ms-padding: 10px;
+    -ms-max-height: 80%;
+    -ms-font-size: 0.85rem;
+    -ms-justify-self: center;
+
+    -moz-padding: 10px;
+    -moz-max-height: 80%;
+    -moz-font-size: 0.85rem;
+    -moz-justify-self: center;
+
+    -webkit-padding: 10px;
+    -webkit-max-height: 80%;
+    -webkit-font-size: 0.85rem;
+    -webkit-justify-self: center;
+
+    padding: 10px;
+    max-height: 80%;
+    font-size: 0.85rem;
+    justify-self: center;
+}
+
+.profile{
+    -o-padding: 15px;
+    -o-max-width: 34%;
+    -o-max-height: 70vh;
+
+    -ms-padding: 15px;
+    -ms-max-width: 34%;
+    -ms-max-height: 70vh;
+
+    -webkit-padding: 15px;
+    -webkit-max-width: 34%;
+    -webkit-max-height: 70vh;
+
+    -moz-padding: 15px;
+    -moz-max-width: 34%;
+    -moz-max-height: 70vh;
+
+    padding: 15px;
+    max-width: 34%;
+    max-height: 70vh;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:700px){
+.profile{
+    -o-display: none;
+    -ms-display: none;
+    -moz-display: none;
+    -webkit-display: none;
+
+    display: none;
+}
+.about{
+    -o-justify-self: center;
+    -ms-justify-self: center;
+    -moz-justify-self: center;
+    -webkit-justify-self: center;
+
+    justify-self: center;
+}
+.describe{
+    -o-font-size: 0.63rem;
+    -o-max-height: 100%;
+
+    -ms-font-size: 0.63rem;
+    -ms-max-height: 100%;
+
+    -moz-font-size: 0.63rem;
+    -moz-max-height: 100%;
+
+    -webkit-font-size: 0.63rem;
+    -webkit-max-height: 100%;
+
+    font-size: 0.63rem;
+    max-height: 100%;
+}
+
+}

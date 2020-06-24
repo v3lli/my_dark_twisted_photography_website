@@ -1,0 +1,102 @@
+input[type=text], textarea, input[type=email] {
+    -o-width: 100%;
+    -o-padding: 12px;
+    -o-border: 1px solid #ccc;
+    -o-border-radius: 4px;
+    -o-box-sizing: border-box;
+    -o-margin-top: 6px;
+    -o-margin-bottom: 16px;
+    -o-resize: vertical;
+
+    -ms-width: 100%;
+    -ms-padding: 12px;
+    -ms-border: 1px solid #ccc;
+    -ms-border-radius: 4px;
+    -ms-box-sizing: border-box;
+    -ms-margin-top: 6px;
+    -ms-margin-bottom: 16px;
+    -ms-resize: vertical;
+
+    -moz-width: 100%;
+    -moz-padding: 12px;
+    -moz-border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    -moz-box-sizing: border-box;
+    -moz-margin-top: 6px;
+    -moz-margin-bottom: 16px;
+    -moz-resize: vertical;
+
+    -webkit-width: 100%;
+    -webkit-padding: 12px;
+    -webkit-border: 1px solid #ccc;
+    -webkit-border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -webkit-margin-top: 6px;
+    -webkit-margin-bottom: 16px;
+    -webkit-resize: vertical;
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    -o-background-color: inherit;
+    -o-color: white;
+    -o-padding: 12px 20px;
+    -o-border: 1px solid grey;
+    -o-border-radius: 4px;
+    -o-cursor: pointer;
+
+    -ms-background-color: inherit;
+    -ms-color: white;
+    -ms-padding: 12px 20px;
+    -ms-border: 1px solid grey;
+    -ms-border-radius: 4px;
+    -ms-cursor: pointer;
+
+    -moz-background-color: inherit;
+    -moz-color: white;
+    -moz-padding: 12px 20px;
+    -moz-border: 1px solid grey;
+    -moz-border-radius: 4px;
+    -moz-cursor: pointer;
+
+    -webkit-background-color: inherit;
+    -webkit-color: white;
+    -webkit-padding: 12px 20px;
+    -webkit-border: 1px solid grey;
+    -webkit-border-radius: 4px;
+    -webkit-cursor: pointer;
+
+    background-color: inherit;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactform {
+    border-radius: 5px;
+    background-color: inherit;
+    padding: 20px;
+  }
+
+  textarea{
+      height: 9rem;;
+  }

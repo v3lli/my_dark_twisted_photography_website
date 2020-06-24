@@ -1,0 +1,349 @@
+@media screen and (min-width: 1000px){
+    .shootowner
+    {
+        -o-text-align: center;
+        -o-font-size:48px;
+        -o-color:inherit;
+
+        -ms-text-align: center;
+        -ms-font-size:48px;
+        -ms-color:inherit;
+
+        -moz-text-align: center;
+        -moz-font-size:48px;
+        -moz-color:inherit;
+
+        -webkit-text-align: center;
+        -webkit-font-size:48px;
+        -webkit-color:inherit;
+
+        text-align: center;
+        font-size:48px;
+        color:inherit;
+    }
+
+    .shoglas
+    {
+        -o-padding: 1.2rem;
+        -o-display: flex;
+        -o-flex-direction: row;
+        -o-width: 100%;
+
+        -ms-padding: 1.2rem;
+        -ms-display: flex;
+        -ms-flex-direction: row;
+        -ms-width: 100%;
+
+        -webkit-padding:1.2rem;
+        -webkit-display: flex;
+        -webkit-flex-direction: row;
+        -webkit-width: 100%;
+
+        -moz-padding: 1.2rem;
+        -moz-display: flex;
+        -moz-flex-direction: row;
+        -moz-width: 100%;
+
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+        
+        
+    }
+    .coverimg
+    {
+        -o-padding: 5px;
+        -ms-padding: 5px;
+        -moz-padding: 5px;
+        -webkit-padding: 5px;
+
+        padding: 5px;
+        max-width: 35%;
+    }
+
+    .coverimg img
+    {
+        width: 100%;
+    }
+    .context
+    {
+        -o-display: flex;
+        -o-flex-direction: column;
+        -o-color: whitesmoke;
+        -o-font-size: 0.75rem;
+        -o-max-height: 100%;
+        -o-margin-left: 1rem;
+
+        -ms-display: flex;
+        -ms-flex-direction: column;
+        -ms-color: whitesmoke;
+        -ms-font-size: 0.75rem;
+        -ms-max-height: 100%;
+        -ms-margin-left: 1rem;
+
+        -moz-display: flex;
+        -moz-flex-direction: column;
+        -moz-color: whitesmoke;
+        -moz-font-size: 0.75rem;
+        -moz-max-height: 100%;
+        -moz-margin-left: 1rem;
+
+        -webkit-display: flex;
+        -webkit-flex-direction: column;
+        -webkit-color: whitesmoke;
+        -webkit-font-size: 0.75rem;
+        -webkit-max-height: 100%;
+        -webkit-margin-left: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        font-size: 0.75rem;
+        max-height: 100%;
+        margin-left: 1rem;
+        align-self: center;
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .shootowner
+    {
+        -o-text-align: center;
+        -o-font-size:48px;
+        -o-color:inherit;
+
+        -ms-text-align: center;
+        -ms-font-size:48px;
+        -ms-color:inherit;
+
+        -moz-text-align: center;
+        -moz-font-size:48px;
+        -moz-color:inherit;
+
+        -webkit-text-align: center;
+        -webkit-font-size:48px;
+        -webkit-color:inherit;
+
+        text-align: center;
+        font-size:48px;
+        color:inherit;
+    }
+
+    .shoglas
+    {
+        -o-padding: 1.2rem;
+        -o-display: flex;
+        -o-flex-direction: row;
+        -o-width: 100%;
+
+        -ms-padding: 1.2rem;
+        -ms-display: flex;
+        -ms-flex-direction: row;
+        -ms-width: 100%;
+
+        -webkit-padding:1.2rem;
+        -webkit-display: flex;
+        -webkit-flex-direction: row;
+        -webkit-width: 100%;
+
+        -moz-padding: 1.2rem;
+        -moz-display: flex;
+        -moz-flex-direction: row;
+        -moz-width: 100%;
+
+        padding: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        
+        
+    }
+    .coverimg
+    {
+        -o-padding: 5px;
+        -ms-padding: 5px;
+        -moz-padding: 5px;
+        -webkit-padding: 5px;
+
+        padding: 5px;
+    }
+
+    .coverimg img
+    {
+        width: 100%;
+    }
+    .context
+    {
+        -o-display: flex;
+        -o-flex-direction: column;
+        -o-color: whitesmoke;
+        -o-font-size: 0.75rem;
+        -o-max-height: 100%;
+        -o-text-align: center;
+        -o-margin-left: 1rem;
+
+        -ms-display: flex;
+        -ms-flex-direction: column;
+        -ms-color: whitesmoke;
+        -ms-font-size: 0.75rem;
+        -ms-max-height: 100%;
+        -ms-text-align: center;
+        -ms-margin-left: 1rem;
+
+        -moz-display: flex;
+        -moz-flex-direction: column;
+        -moz-color: whitesmoke;
+        -moz-font-size: 0.75rem;
+        -moz-max-height: 100%;
+        -moz-text-align: center;
+        -moz-margin-left: 1rem;
+
+        -webkit-display: flex;
+        -webkit-flex-direction: column;
+        -webkit-color: whitesmoke;
+        -webkit-font-size: 0.75rem;
+        -webkit-max-height: 100%;
+        -webkit-text-align: center;
+        -webkit-margin-left: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        font-size: 0.75rem;
+        max-height: 100%;
+        text-align: center;
+        margin-left: 1rem;
+
+    }
+    }
+
+/* @media screen and (max-width: 800px){
+    .cover{
+        -ms-max-width: 40%;
+        -o-max-width: 40%;
+        -moz-max-width: 40%;
+        -webkit-max-width: 40%;
+
+        max-width: 40%;
+    }
+
+    .context{
+        -o-max-width: 60%;
+        -ms-max-width: 60%;
+        -moz-max-width: 60%;
+        -webkit-max-width: 60%;
+
+        max-width: 60%;
+    }
+
+    .shoglas{
+        -o-align-content: center;
+        -o-justify-content: center;
+        -o-max-height: 80vh;
+
+        -moz-align-content: center;
+        -moz-justify-content: center;
+        -moz-max-height: 80vh;
+
+        -ms-align-content: center;
+        -ms-justify-content: center;
+        -ms-max-height: 80vh;
+
+        -webkit-align-content: center;
+        -webkit-justify-content: center;
+        -webkit-max-height: 80vh;
+
+        align-content: center;
+        justify-content: center;
+        max-height: 80vh;
+    }
+}
+ */
+/* @media screen and (max-width: 500px)
+{
+    .cover{
+        -o-max-width: 65%;
+        -o-max-height: 100%;
+
+        -ms-max-width: 65%;
+        -ms-max-height: 100%;
+
+        -moz-max-width: 65%;
+        -moz-max-height: 100%;
+
+        -webkit-max-width: 65%;
+        -webkit-max-height: 100%;
+
+        max-width: 65%;
+        max-height: 100%;
+    }
+    .context{
+        -o-max-width: 35%;
+        -o-justify-self: right;
+
+        -ms-max-width: 35%;
+        -ms-justify-self: right;
+
+        -moz-max-width: 35%;
+        -moz-justify-self: right;
+
+        -webkit-max-width: 35%;
+        -webkit-justify-self: right;
+
+        max-width: 35%;
+        justify-self: right;
+        
+    }
+    .shoglas{
+        -o-justify-content: space-between;
+        -o-align-content: center;
+        -o-justify-content: center;
+        -o-padding: 0;
+        -o-max-height: 80vh;
+
+
+        -moz-justify-content: space-between;
+        -moz-align-content: center;
+        -moz-justify-content: center;
+        -moz-padding: 0;
+        -moz-max-height: 80vh;
+
+
+        -webkit-justify-content: space-between;
+        -webkit-align-content: center;
+        -webkit-justify-content: center;
+        -webkit-padding: 0;
+        -webkit-max-height: 80vh;
+
+
+        -ms-justify-content: space-between;
+        -ms-align-content: center;
+        -ms-justify-content: center;
+        -ms-padding: 0;
+        -ms-max-height: 80vh;
+
+
+        justify-content: space-between;
+        align-content: center;
+        justify-content: center;
+        padding: 0;
+        max-height: 80vh;
+
+        
+    }
+} */

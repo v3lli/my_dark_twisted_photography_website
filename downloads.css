@@ -1,0 +1,49 @@
+.downlanding img
+{
+
+    -o-display: block;
+    -o-justify-self: center;
+    -o-max-width: 65%;
+    -o-max-height: 100%;
+    -o-flex-grow: 2;
+
+    
+    -o-margin: auto;
+    -o-align-self: center;
+
+    -webkit-display: block;
+    -webkit-justify-self: center;
+    -webkit-max-width: 80%;
+    -webkit-max-height: 100%;
+    -webkit-flex-grow: 2;
+    
+    -webkit-margin: auto;
+    -webkit-align-self: center;
+
+    -ms-display: block;
+    -ms-justify-self: center;
+    -ms-max-width: 80%;
+    -ms-max-height: 100%;
+    -ms-flex-grow: 1;
+
+    
+    -ms-margin: auto;
+    -ms-align-self: center;
+
+    -moz-display: block;
+    -moz-justify-self: center;
+    -moz-max-width: 80%;
+    -moz-max-height: 100%;
+    -moz-flex-grow: 1;
+    -moz-margin: auto;
+    -moz-align-self: center;
+
+    display: block;
+    justify-self: center;
+    max-width: 80%;
+    max-height: 100%;
+    flex-grow: 1;
+    
+    margin: auto;
+    align-self: center;
+}

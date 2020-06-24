@@ -1,0 +1,445 @@
+
+    .frame{
+        -o-width: 100%;
+        -o-display: flex;
+        -o-flex-direction: row;
+        -o-max-height: fit-content;
+        -o-padding: 1rem;
+        -o-border-bottom: 1px dotted #d1d1d1;
+
+        -ms-width: 100%;
+        -ms-display: flex;
+        -ms-flex-direction: row;
+        -ms-max-height: fit-content;
+        -ms-padding: 1rem;
+        -ms-border-bottom: 1px dotted #d1d1d1;
+
+        -moz-width: 100%;
+        -moz-display: flex;
+        -moz-flex-direction: row;
+        -moz-max-height: fit-content;
+        -moz-padding: 1rem;
+        -moz-border-bottom: 1px dotted #d1d1d1;
+
+        -webkit-width: 100%;
+        -webkit-display: flex;
+        -webkit-flex-direction: row;
+        -webkit-max-height: fit-content;
+        -webkit-padding: 1rem;
+        -webkit-border-bottom: 1px dotted #d1d1d1;
+
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        max-height: 90vh;
+        padding: 1rem;
+        border-bottom: 1px dotted #d1d1d1;
+
+    }
+
+    .centerframe{
+        -o-width: 100%;
+        -o-display: flex;
+        -o-flex-direction: column;
+        -o-min-height: fit-content;
+        -o-padding: 2rem;
+
+        -ms-width: 100%;
+        -ms-display: flex;
+        -ms-flex-direction: column;
+        -ms-min-height: fit-content;
+        -ms-padding: 2rem;
+
+        -webkit-width: 100%;
+        -webkit-display: flex;
+        -webkit-flex-direction: column;
+        -webkit-min-height: fit-content;
+        -webkit-padding: 2rem;
+
+        -moz-width: 100%;
+        -moz-display: flex;
+        -moz-flex-direction: column;
+        -moz-min-height: fit-content;
+        -moz-padding: 2rem;
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        min-height: fit-content;
+        padding: 2rem;
+    }
+
+    .centerframe .landscape{
+        -moz-display: block;
+        -moz-justify-self: center;
+        -moz-max-width: 100%;
+        -moz-max-height: 100%;
+        -moz-flex-grow: 2;
+        -moz-padding: 1rem;
+        -moz-margin: auto;
+        -moz-align-self: center;
+
+        -webkit-display: block;
+        -webkit-justify-self: center;
+        -webkit-max-width: 100%;
+        -webkit-max-height: 100%;
+        -webkit-flex-grow: 2;
+        -webkit-padding: 1rem;
+        -webkit-margin: auto;
+        -webkit-align-self: center;
+
+        -ms-display: block;
+        -ms-justify-self: center;
+        -ms-max-width: 100%;
+        -ms-max-height: 100%;
+        -ms-flex-grow: 2;
+        -ms-padding: 1rem;
+        -ms-margin: auto;
+        -ms-align-self: center;
+
+        -o-display: block;
+        -o-justify-self: center;
+        -o-max-width: 100%;
+        -o-max-height: 100%;
+        -o-flex-grow: 2;
+        -o-padding: 1rem;
+        -o-margin: auto;
+        -o-align-self: center;
+
+        display: block;
+        justify-self: center;
+        max-width: 100%;
+        max-height: 100%;
+        flex-grow: 2;
+        padding: 1rem;
+        margin: auto;
+        align-self: center;
+
+    }
+
+    .centerframe .portrait{
+        display: flex;
+        flex-direction: column;
+    }
+    .landscape{
+        -ms-display: relative;
+        -ms-justify-self: center;
+        -ms-max-width: 85%;
+        -ms-max-height: 100%;
+        -ms-flex-grow: 2;
+        -ms-padding: 1rem;
+        -ms-margin: auto;
+        -ms-align-self: center;
+
+        -moz-display: relative;
+        -moz-justify-self: center;
+        -moz-max-width: 85%;
+        -moz-max-height: 100%;
+        -moz-flex-grow: 2;
+        -moz-padding: 1rem;
+        -moz-margin: auto;
+        -moz-align-self: center;
+
+        -webkit-display: relative;
+        -webkit-justify-self: center;
+        -webkit-max-width: 85%;
+        -webkit-max-height: 100%;
+        -webkit-flex-grow: 2;
+        -webkit-padding: 1rem;
+        -webkit-margin: auto;
+        -webkit-align-self: center;
+
+        -o-display: relative;
+        -o-justify-self: center;
+        -o-max-width: 85%;
+        -o-max-height: 100%;
+        -o-flex-grow: 2;
+        -o-padding: 1rem;
+        -o-margin: auto;
+        -o-align-self: center;
+
+        display: relative;
+        justify-self: center;
+        max-width: 85%;
+        max-height: 100%;
+        flex-grow: 2;
+        padding: 1rem;
+        margin: auto;
+        align-self: center;
+    }
+
+    .portrait{
+        -o-max-height:100%;
+        -o-max-width: 100%;
+        -o-padding: 0.5rem;
+
+        -ms-max-height:100%;
+        -ms-max-width: 100%;
+        -ms-padding: 0.5rem;
+
+        -moz-max-height:100%;
+        -moz-max-width: 100%;
+        -moz-padding: 0.5rem;
+
+        -webkit-max-height:100%;
+        -webkit-max-width: 100%;
+        -webkit-padding: 0.5rem;
+
+        max-height:100%;
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+    .port{
+        -o-font-size: 0.8rem;
+        -o-justify-self:center ;
+        -o-align-self: center;
+
+        -o-padding-left: 2rem;
+
+        -moz-font-size: 0.8rem;
+        -moz-justify-self:center ;
+        -moz-align-self: center;
+
+        -moz-padding-left: 2rem;
+
+        -webkit-font-size: 0.8rem;
+        -webkit-justify-self:center ;
+        -webkit-align-self: center;
+
+        -webkit-padding-left: 2rem;
+
+        font-size: 0.8rem;
+        justify-self:center ;
+        align-self: center;
+
+        padding-left: 2rem;
+    }
+    .caption1{
+        -o-font-size: 0.65rem;
+        -o-float: right;
+        -o-left: 0;
+        -o-align-self: flex-end;
+        -o-max-width: 15%;
+
+        -moz-font-size: 0.65rem;
+        -moz-float: right;
+        -moz-left: 0;
+        -moz-align-self: flex-end;
+        -moz-max-width: 15%;
+
+        -webkit-font-size: 0.65rem;
+        -webkit-float: right;
+        -webkit-left: 0;
+        -webkit-align-self: flex-end;
+        -webkit-max-width: 15%;
+
+        -ms-font-size: 0.65rem;
+        -ms-float: right;
+        -ms-left: 0;
+        -ms-align-self: flex-end;
+        -ms-max-width: 15%;
+
+        font-size: 0.65rem;
+        float: right;
+        left: 0;
+        align-self: flex-end;
+        max-width: 15%;
+    }
+
+    .statement{
+        -o-text-align: center;
+        -o-font-size:48px;
+        -o-color:inherit;
+
+        -moz-text-align: center;
+        -moz-font-size:48px;
+        -moz-color:inherit;
+
+        -ms-text-align: center;
+        -ms-font-size:48px;
+        -ms-color:inherit;
+
+        -webkit-text-align: center;
+        -webkit-font-size:48px;
+        -webkit-color:inherit;
+
+        text-align: center;
+        font-size:48px;
+        color:inherit;
+    }
+
+    .header
+    {
+        -o-justify-self: center;
+        -o-margin-bottom: 2rem;
+        -o-text-align: center;
+
+        -webkit-justify-self: center;
+        -webkit-margin-bottom: 2rem;
+        -webkit-text-align: center;
+
+        -moz-justify-self: center;
+        -moz-margin-bottom: 2rem;
+        -moz-text-align: center;
+
+        -ms-justify-self: center;
+        -ms-margin-bottom: 2rem;
+        -ms-text-align: center;
+
+        justify-self: center;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .phonetics{
+        -moz-color: whitesmoke;
+        -moz-font-size: 0.65rem;
+
+        -ms-color: whitesmoke;
+        -ms-font-size: 0.65rem;
+
+        -webkit-color: whitesmoke;
+        -webkit-font-size: 0.65rem;
+
+        -o-color: whitesmoke;
+        -o-font-size: 0.65rem;
+
+        color: whitesmoke;
+        font-size: 0.65rem;
+    }
+
+    .projstatement{
+        -o-padding: 10px;
+        -o-max-height: 100%;
+        -o-font-size: 0.75rem;
+        -o-justify-self: center;
+        
+        -ms-padding: 10px;
+        -ms-max-height: 100%;
+        -ms-font-size: 0.75rem;
+        -ms-justify-self: center;
+
+        -moz-padding: 10px;
+        -moz-max-height: 100%;
+        -moz-font-size: 0.75rem;
+        -moz-justify-self: center;
+
+        -webkit-padding: 10px;
+        -webkit-max-height: 100%;
+        -webkit-font-size: 0.75rem;
+        -webkit-justify-self: center;
+
+        padding: 10px;
+        max-height: 100%;
+        font-size: 0.75rem;
+        justify-self: center;
+    }
+    .caption2{
+        -o-font-size: 0.65rem;
+        -o-float: right;
+        -o-left: 0;
+        -o-align-self: flex-start;
+        -o-max-width: 15%;
+
+        -webkit-font-size: 0.65rem;
+        -webkit-float: right;
+        -webkit-left: 0;
+        -webkit-align-self: flex-start;
+        -webkit-max-width: 15%;
+
+        -ms-font-size: 0.65rem;
+        -ms-float: right;
+        -ms-left: 0;
+        -ms-align-self: flex-start;
+        -ms-max-width: 15%;
+
+        -moz-font-size: 0.65rem;
+        -moz-float: right;
+        -moz-left: 0;
+        -moz-align-self: flex-start;
+        -moz-max-width: 15%;
+
+        font-size: 0.65rem;
+        float: right;
+        left: 0;
+        align-self: flex-start;
+        max-width: 15%;
+
+        
+    }
+
+    .frame img{
+        -o-max-height: 100%;
+        -o-align-self: center;
+
+        -ms-max-height: 100%;
+        -ms-align-self: center;
+
+        -moz-max-height: 100%;
+        -moz-align-self: center;
+
+        -webkit-max-height: 100%;
+        -webkit-align-self: center;
+
+        max-height: 100%;
+        align-self: center;
+    }
+
+    @media screen and (max-width:700px){
+        .frame .landscape{
+            -o-max-height: 100vh;
+            -o-align-self: center;
+            -o-margin-bottom: 2rem;
+
+            -ms-max-height: 100vh;
+            -ms-align-self: center;
+            -ms-margin-bottom: 2rem;
+
+            -moz-max-height: 100vh;
+            -moz-align-self: center;
+            -moz-margin-bottom: 2rem;
+
+            -webkit-max-height: 100vh;
+            -webkit-align-self: center;
+            -webkit-margin-bottom: 2rem;
+
+            max-height: 100vh;
+            align-self: center;
+            margin-bottom: 2rem;
+        } 
+
+        .frame{
+            -o-max-width: 100%;
+            -o-max-height: 100vh;
+            -o-padding: 0.4rem;
+
+
+            -ms-max-width: 100%;
+            -ms-max-height: 100vh;
+            -ms-padding: 0.4rem;
+    
+            -moz-max-width: 100%;
+            -moz-max-height: 100vh;
+            -moz-padding: 0.4rem;
+
+            -webkit-max-width: 100%;
+            -webkit-max-height: 100vh;
+            -webkit-padding: 0.4rem;
+
+            max-width: 100%;
+            max-height: 100vh;
+            padding: 0.4rem;
+    
+    
+    
+        }
+
+        .caption1, .caption2, .port{
+            -o-display: none;
+            -moz-display: none;
+            -webkit-display: none;
+            -ms-display: none;
+
+            display: none;
+        }
+    }
